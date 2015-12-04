@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dUE-Lp-hsE" customClass="CKTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dUE-Lp-hsE" id="MbR-S8-TxN">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7g7-e2-4WJ" userLabel="icon">
+                        <rect key="frame" x="8" y="4" width="35" height="35"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="U1i-gy-BvK"/>
+                            <constraint firstAttribute="width" constant="35" id="mIn-Xy-GhY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLI-wC-pLO">
+                        <rect key="frame" x="51" y="13" width="38" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Dq-r3-RED">
+                        <rect key="frame" x="256" y="7" width="56" height="29"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="点击收藏">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" title="取消收藏"/>
+                        <connections>
+                            <action selector="clickCollctionBtn:" destination="dUE-Lp-hsE" eventType="touchUpInside" id="PYO-AY-j96"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="3Dq-r3-RED" firstAttribute="centerY" secondItem="MbR-S8-TxN" secondAttribute="centerY" id="Ju7-01-FyO"/>
+                    <constraint firstItem="HLI-wC-pLO" firstAttribute="centerY" secondItem="MbR-S8-TxN" secondAttribute="centerY" id="Xj5-ox-MWV"/>
+                    <constraint firstItem="7g7-e2-4WJ" firstAttribute="leading" secondItem="MbR-S8-TxN" secondAttribute="leading" constant="8" id="qzH-ks-0Lc"/>
+                    <constraint firstItem="7g7-e2-4WJ" firstAttribute="centerY" secondItem="MbR-S8-TxN" secondAttribute="centerY" id="rWg-gW-d1B"/>
+                    <constraint firstItem="HLI-wC-pLO" firstAttribute="leading" secondItem="7g7-e2-4WJ" secondAttribute="trailing" constant="8" id="tUZ-At-RHB"/>
+                    <constraint firstItem="3Dq-r3-RED" firstAttribute="trailing" secondItem="MbR-S8-TxN" secondAttribute="trailingMargin" id="zh5-rF-7XE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="collectionButton" destination="3Dq-r3-RED" id="ENo-R3-LB5"/>
+                <outlet property="iconView" destination="7g7-e2-4WJ" id="a6j-p9-hFd"/>
+                <outlet property="nameLabel" destination="HLI-wC-pLO" id="9Xs-xV-FAT"/>
+            </connections>
+            <point key="canvasLocation" x="525" y="391"/>
+        </tableViewCell>
+    </objects>
+</document>

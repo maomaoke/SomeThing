@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC82E2AB1BFD6693007F3AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82E2AA1BFD6693007F3AF2 /* main.m */; };
+		DC82E2AE1BFD6693007F3AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82E2AD1BFD6693007F3AF2 /* AppDelegate.m */; };
+		DC82E2B11BFD6693007F3AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82E2B01BFD6693007F3AF2 /* ViewController.m */; };
+		DC82E2B41BFD6693007F3AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC82E2B21BFD6693007F3AF2 /* Main.storyboard */; };
+		DC82E2B61BFD6693007F3AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC82E2B51BFD6693007F3AF2 /* Assets.xcassets */; };
+		DC82E2B91BFD6693007F3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC82E2B71BFD6693007F3AF2 /* LaunchScreen.storyboard */; };
+		DC82E2C41BFD6694007F3AF2 /* CAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82E2C31BFD6694007F3AF2 /* CAShapeLayerTests.m */; };
+		DC82E2CF1BFD6694007F3AF2 /* CAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82E2CE1BFD6694007F3AF2 /* CAShapeLayerUITests.m */; };
+		DC82E2DE1BFD67C1007F3AF2 /* CKShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82E2DD1BFD67C1007F3AF2 /* CKShapeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC82E2C01BFD6694007F3AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC82E29E1BFD6693007F3AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC82E2A51BFD6693007F3AF2;
+			remoteInfo = CAShapeLayer;
+		};
+		DC82E2CB1BFD6694007F3AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC82E29E1BFD6693007F3AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC82E2A51BFD6693007F3AF2;
+			remoteInfo = CAShapeLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC82E2A61BFD6693007F3AF2 /* CAShapeLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapeLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC82E2AA1BFD6693007F3AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC82E2AC1BFD6693007F3AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC82E2AD1BFD6693007F3AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC82E2AF1BFD6693007F3AF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC82E2B01BFD6693007F3AF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC82E2B31BFD6693007F3AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC82E2B51BFD6693007F3AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC82E2B81BFD6693007F3AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC82E2BA1BFD6693007F3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC82E2BF1BFD6694007F3AF2 /* CAShapeLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC82E2C31BFD6694007F3AF2 /* CAShapeLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerTests.m; sourceTree = "<group>"; };
+		DC82E2C51BFD6694007F3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC82E2CA1BFD6694007F3AF2 /* CAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC82E2CE1BFD6694007F3AF2 /* CAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerUITests.m; sourceTree = "<group>"; };
+		DC82E2D01BFD6694007F3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC82E2DC1BFD67C1007F3AF2 /* CKShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKShapeView.h; sourceTree = "<group>"; };
+		DC82E2DD1BFD67C1007F3AF2 /* CKShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKShapeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC82E2A31BFD6693007F3AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC82E2BC1BFD6694007F3AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC82E2C71BFD6694007F3AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC82E29D1BFD6693007F3AF2 = {
+			isa = PBXGroup;
+			children = (
+				DC82E2A81BFD6693007F3AF2 /* CAShapeLayer */,
+				DC82E2C21BFD6694007F3AF2 /* CAShapeLayerTests */,
+				DC82E2CD1BFD6694007F3AF2 /* CAShapeLayerUITests */,
+				DC82E2A71BFD6693007F3AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC82E2A71BFD6693007F3AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC82E2A61BFD6693007F3AF2 /* CAShapeLayer.app */,
+				DC82E2BF1BFD6694007F3AF2 /* CAShapeLayerTests.xctest */,
+				DC82E2CA1BFD6694007F3AF2 /* CAShapeLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC82E2A81BFD6693007F3AF2 /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC82E2AC1BFD6693007F3AF2 /* AppDelegate.h */,
+				DC82E2AD1BFD6693007F3AF2 /* AppDelegate.m */,
+				DC82E2AF1BFD6693007F3AF2 /* ViewController.h */,
+				DC82E2B01BFD6693007F3AF2 /* ViewController.m */,
+				DC82E2A91BFD6693007F3AF2 /* Supporting Files */,
+				DC82E2DC1BFD67C1007F3AF2 /* CKShapeView.h */,
+				DC82E2DD1BFD67C1007F3AF2 /* CKShapeView.m */,
+			);
+			path = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		DC82E2A91BFD6693007F3AF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC82E2B21BFD6693007F3AF2 /* Main.storyboard */,
+				DC82E2B71BFD6693007F3AF2 /* LaunchScreen.storyboard */,
+				DC82E2BA1BFD6693007F3AF2 /* Info.plist */,
+				DC82E2B51BFD6693007F3AF2 /* Assets.xcassets */,
+				DC82E2AA1BFD6693007F3AF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC82E2C21BFD6694007F3AF2 /* CAShapeLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC82E2C31BFD6694007F3AF2 /* CAShapeLayerTests.m */,
+				DC82E2C51BFD6694007F3AF2 /* Info.plist */,
+			);
+			path = CAShapeLayerTests;
+			sourceTree = "<group>";
+		};
+		DC82E2CD1BFD6694007F3AF2 /* CAShapeLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC82E2CE1BFD6694007F3AF2 /* CAShapeLayerUITests.m */,
+				DC82E2D01BFD6694007F3AF2 /* Info.plist */,
+			);
+			path = CAShapeLayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC82E2A51BFD6693007F3AF2 /* CAShapeLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC82E2D31BFD6694007F3AF2 /* Build configuration list for PBXNativeTarget "CAShapeLayer" */;
+			buildPhases = (
+				DC82E2A21BFD6693007F3AF2 /* Sources */,
+				DC82E2A31BFD6693007F3AF2 /* Frameworks */,
+				DC82E2A41BFD6693007F3AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAShapeLayer;
+			productName = CAShapeLayer;
+			productReference = DC82E2A61BFD6693007F3AF2 /* CAShapeLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC82E2BE1BFD6694007F3AF2 /* CAShapeLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC82E2D61BFD6694007F3AF2 /* Build configuration list for PBXNativeTarget "CAShapeLayerTests" */;
+			buildPhases = (
+				DC82E2BB1BFD6694007F3AF2 /* Sources */,
+				DC82E2BC1BFD6694007F3AF2 /* Frameworks */,
+				DC82E2BD1BFD6694007F3AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC82E2C11BFD6694007F3AF2 /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerTests;
+			productName = CAShapeLayerTests;
+			productReference = DC82E2BF1BFD6694007F3AF2 /* CAShapeLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC82E2C91BFD6694007F3AF2 /* CAShapeLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC82E2D91BFD6694007F3AF2 /* Build configuration list for PBXNativeTarget "CAShapeLayerUITests" */;
+			buildPhases = (
+				DC82E2C61BFD6694007F3AF2 /* Sources */,
+				DC82E2C71BFD6694007F3AF2 /* Frameworks */,
+				DC82E2C81BFD6694007F3AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC82E2CC1BFD6694007F3AF2 /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerUITests;
+			productName = CAShapeLayerUITests;
+			productReference = DC82E2CA1BFD6694007F3AF2 /* CAShapeLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC82E29E1BFD6693007F3AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = maomaoke;
+				TargetAttributes = {
+					DC82E2A51BFD6693007F3AF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = R8FT5M45WW;
+					};
+					DC82E2BE1BFD6694007F3AF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = R8FT5M45WW;
+						TestTargetID = DC82E2A51BFD6693007F3AF2;
+					};
+					DC82E2C91BFD6694007F3AF2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = R8FT5M45WW;
+						TestTargetID = DC82E2A51BFD6693007F3AF2;
+					};
+				};
+			};
+			buildConfigurationList = DC82E2A11BFD6693007F3AF2 /* Build configuration list for PBXProject "CAShapeLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC82E29D1BFD6693007F3AF2;
+			productRefGroup = DC82E2A71BFD6693007F3AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC82E2A51BFD6693007F3AF2 /* CAShapeLayer */,
+				DC82E2BE1BFD6694007F3AF2 /* CAShapeLayerTests */,
+				DC82E2C91BFD6694007F3AF2 /* CAShapeLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC82E2A41BFD6693007F3AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC82E2B91BFD6693007F3AF2 /* LaunchScreen.storyboard in Resources */,
+				DC82E2B61BFD6693007F3AF2 /* Assets.xcassets in Resources */,
+				DC82E2B41BFD6693007F3AF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC82E2BD1BFD6694007F3AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC82E2C81BFD6694007F3AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC82E2A21BFD6693007F3AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC82E2B11BFD6693007F3AF2 /* ViewController.m in Sources */,
+				DC82E2AE1BFD6693007F3AF2 /* AppDelegate.m in Sources */,
+				DC82E2DE1BFD67C1007F3AF2 /* CKShapeView.m in Sources */,
+				DC82E2AB1BFD6693007F3AF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC82E2BB1BFD6694007F3AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC82E2C41BFD6694007F3AF2 /* CAShapeLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC82E2C61BFD6694007F3AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC82E2CF1BFD6694007F3AF2 /* CAShapeLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC82E2C11BFD6694007F3AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC82E2A51BFD6693007F3AF2 /* CAShapeLayer */;
+			targetProxy = DC82E2C01BFD6694007F3AF2 /* PBXContainerItemProxy */;
+		};
+		DC82E2CC1BFD6694007F3AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC82E2A51BFD6693007F3AF2 /* CAShapeLayer */;
+			targetProxy = DC82E2CB1BFD6694007F3AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC82E2B21BFD6693007F3AF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC82E2B31BFD6693007F3AF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC82E2B71BFD6693007F3AF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC82E2B81BFD6693007F3AF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC82E2D11BFD6694007F3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC82E2D21BFD6694007F3AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC82E2D41BFD6694007F3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAShapeLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.CAShapeLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC82E2D51BFD6694007F3AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAShapeLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.CAShapeLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC82E2D71BFD6694007F3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapeLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.CAShapeLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayer.app/CAShapeLayer";
+			};
+			name = Debug;
+		};
+		DC82E2D81BFD6694007F3AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapeLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.CAShapeLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayer.app/CAShapeLayer";
+			};
+			name = Release;
+		};
+		DC82E2DA1BFD6694007F3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapeLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.CAShapeLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapeLayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC82E2DB1BFD6694007F3AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapeLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.CAShapeLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapeLayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC82E2A11BFD6693007F3AF2 /* Build configuration list for PBXProject "CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC82E2D11BFD6694007F3AF2 /* Debug */,
+				DC82E2D21BFD6694007F3AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC82E2D31BFD6694007F3AF2 /* Build configuration list for PBXNativeTarget "CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC82E2D41BFD6694007F3AF2 /* Debug */,
+				DC82E2D51BFD6694007F3AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC82E2D61BFD6694007F3AF2 /* Build configuration list for PBXNativeTarget "CAShapeLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC82E2D71BFD6694007F3AF2 /* Debug */,
+				DC82E2D81BFD6694007F3AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC82E2D91BFD6694007F3AF2 /* Build configuration list for PBXNativeTarget "CAShapeLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC82E2DA1BFD6694007F3AF2 /* Debug */,
+				DC82E2DB1BFD6694007F3AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC82E29E1BFD6693007F3AF2 /* Project object */;
+}
