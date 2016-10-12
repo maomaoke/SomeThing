@@ -43,21 +43,30 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CrT-Do-idc" customClass="CKGraphView" customModule="CoreG" customModuleProvider="target">
-                                        <frame key="frameInset" minY="25" width="300" height="250"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CrT-Do-idc" customClass="CKGraphView" customModule="CoreG" customModuleProvider="target">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                <color key="value" red="0.98039215686274506" green="0.9137254901960784" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                <color key="value" red="0.9882352941176471" green="0.30980392156862746" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.0078431372550000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
+                                    <constraint firstItem="CrT-Do-idc" firstAttribute="trailing" secondItem="Fme-c8-B8W" secondAttribute="trailing" id="79W-af-cU1"/>
                                     <constraint firstAttribute="trailing" secondItem="Fme-c8-B8W" secondAttribute="trailing" id="D8n-jk-59z"/>
                                     <constraint firstItem="Fme-c8-B8W" firstAttribute="top" secondItem="kMP-jC-N5T" secondAttribute="top" id="Dbn-0f-o39"/>
                                     <constraint firstAttribute="height" constant="300" id="SA8-2r-2dS"/>
+                                    <constraint firstItem="CrT-Do-idc" firstAttribute="leading" secondItem="Fme-c8-B8W" secondAttribute="leading" id="YeC-20-kR7"/>
                                     <constraint firstAttribute="bottom" secondItem="Fme-c8-B8W" secondAttribute="bottom" id="aXr-vZ-WrS"/>
                                     <constraint firstAttribute="width" constant="300" id="hxU-8Y-0GU"/>
+                                    <constraint firstItem="CrT-Do-idc" firstAttribute="top" secondItem="Fme-c8-B8W" secondAttribute="top" id="ja2-Ch-LLQ"/>
                                     <constraint firstItem="Fme-c8-B8W" firstAttribute="leading" secondItem="kMP-jC-N5T" secondAttribute="leading" id="oZb-oN-HJH"/>
+                                    <constraint firstItem="CrT-Do-idc" firstAttribute="bottom" secondItem="Fme-c8-B8W" secondAttribute="bottom" id="upK-8J-jdS"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="XrY-Gc-aVH" appends="YES" id="719-8f-yXJ"/>
