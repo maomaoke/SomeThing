@@ -20,9 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.customView = [[CKCustomView alloc] initWithFrame:CGRectMake(0, 0, 200, 200) color:[UIColor blueColor]];
-//    self.customView.center = self.view.center;
-//    [self.view addSubview:self.customView];
+    self.customView = [[CKCustomView alloc] initWithFrame:CGRectMake(0, 0, 200, 200) color:[UIColor blueColor]];
+    self.customView.center = self.view.center;
+    [self.view addSubview:self.customView];
 }
 
 
