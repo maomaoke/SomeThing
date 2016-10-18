@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func counterViewTap(_ sender: UITapGestureRecognizer?) {
-        if isGraphViewShowing {
+        if !isGraphViewShowing {
             UIView.transition(from: graphView, to: counterView, duration: 1.0, options: [.transitionFlipFromLeft, .showHideTransitionViews], completion: nil)
         } else {
             UIView.transition(from: counterView, to: graphView, duration: 1.0, options: [.transitionFlipFromRight, .showHideTransitionViews], completion: nil)

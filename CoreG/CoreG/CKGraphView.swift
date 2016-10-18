@@ -27,8 +27,8 @@ import UIKit
         //渐变色
         let gradient = CGGradient(colorsSpace: colorSpace, colors: colors as CFArray, locations: colorLoactions)
         //颜色起始位置
-        let startPoint = CGPoint.zero
-        let endPoint = CGPoint(x: 0, y: rect.height)
+        var startPoint = CGPoint.zero
+        var endPoint = CGPoint(x: 0, y: rect.height)
         
         ctx?.drawLinearGradient(gradient!, start: startPoint, end: endPoint, options: .drawsBeforeStartLocation)
         
@@ -43,8 +43,7 @@ import UIKit
         
         let columnXPoint =  { (column: Int) -> CGFloat in
             let spacer = (rect.width - margin * 2 - 4) / CGFloat(self.graphPoints.count - 1)
-            var x = CGFloat(column) * spacer
-            x += margin + 2
+            let x = margin + 2 + CGFloat(column) * spacer
             return x
         }
         
@@ -77,6 +76,28 @@ import UIKit
             graphPath.addLine(to: nextPoint)
         }
         
-//        graphPath.stroke()
+        
+        ctx?.saveGState()
+        
+        let clippingPath = graphPath.copy() as! UIBezierPath
+        
+        clippingPath.addLine(to: CGPoint(x: columnXPoint(graphPoints.count - 1),
+                                         y: rect.height))
+        clippingPath.addLine(to: CGPoint(x: columnXPoint(0), y: rect.height))
+        
+        clippingPath.close()
+        
+        clippingPath.addClip()
+        
+        let highestYPoint = columnYPoint(maxValue)
+        startPoint = CGPoint(x: margin, y: highestYPoint)
+        endPoint = CGPoint(x: margin, y: self.bounds.height)
+        
+        ctx?.drawLinearGradient(gradient!, start: startPoint, end: endPoint, options: .drawsBeforeStartLocation)
+        
+        ctx?.restoreGState()
+        
+        graphPath.lineWidth = 2
+        graphPath.stroke()
     }
 }
